@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>HastyHands-Improving your typing pace</title>
+  </head>
+  <body>
+    
+    <!-- creating a navbar  -->
+    <div class="navbar">
+      <div class="logo">
+        <h1>HastyHands ⌨️</h1>
+      </div>
+
+      <div class="options">
+        <!-- timer selection by user  -->
+        <select class="timerSelect">
+          <option value="" disabled selected hidden>Select Timer</option>
+          <option value="30">30 Second Test</option>
+          <option value="60">1 Minute Test</option>
+          <option value="120">2 Minute Test</option>
+        </select>
+        <!-- difficulty level  -->
+        <select class="difficulty">
+          <option value="easy">Easy Text</option>
+          <option value="medium">Medium Text</option>
+          <option value="hard">Hard Text</option>
+          <option value="diff" disabled selected hidden>Select difficulty</option>
+        </select>
+        <!-- theme selection  -->
+        <select class="theme">
+          <option value="light">☀️ Light Mode</option>
+          <option value="dark">🌙 Dark Mode</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- main code  -->
+    <div class="wrapper">
+      
+      <h1 class="main_heading">HastyHands ⌨️</h1>
+      <input type="text" class="input" />
+      <div class="content_box">
+        <div class="typing_text">
+          <p></p>
+        </div>
+        <div class="result">
+          <ul class="result_details">
+            <li class="time">
+              <p>⏱️ Time left:</p>
+              <span><b>0</b>s</span>
+            </li>
+            <li class="mistakes">
+              <p>❌ Mistakes:</p>
+              <span><b>0</b></span>
+            </li>
+            <li class="wpm">
+              <p>📝 WPM:</p>
+              <span><b>0</b></span>
+            </li>
+            <li class="cpm">
+              <p>🔡 CPM:</p>
+              <span><b>0</b></span>
+            </li>
+            <li class="accuracy">
+              <p>🎯 Accuracy:</p>
+              <span><b>0 %</b></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="buttons">
+        <button class="pause">Pause</button>
+        <button class="try_again">Try Again</button>
+      </div>
+    </div>
+    <script src="paragraph.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
