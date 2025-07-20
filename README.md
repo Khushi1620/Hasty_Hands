@@ -25,7 +25,7 @@
 
 | Light Mode | Dark Mode |
 |------------|-----------|
-| ![Light Mode](Screenshot/LightMode.png) | ![Dark Mode](Screenshot/DarkMode.png) |
+| ![Light Mode](https://github.com/Khushi1620/Hasty_Hands/blob/main/HastyHands/Screenshot/LightMode.png) | ![Dark Mode](https://github.com/Khushi1620/Hasty_Hands/blob/main/HastyHands/Screenshot/DarkMode.png) |
 
 ---
 
